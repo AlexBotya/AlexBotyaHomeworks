@@ -3,6 +3,7 @@ package Lesson1;
 public class Lesson1 {
     public static void main(String[] args) {
         System.out.println("My Lesson 1");
+        //задание 1
         byte a1 = 127;
         short a2 = 32767;
         int a3 = 999999;
@@ -19,12 +20,17 @@ public class Lesson1 {
         System.out.println("double " + a6);
         System.out.println("char " + a7);
         System.out.println("boolean " + a8);
-
-
-
-
-
-
+        System.out.println("Задание 2");
+        Sum();
 
     }
+    static void Sum() {
+        float a=2f;
+        float b = 3f;
+        float c = 4f;
+        float d=5f;
+        float result = a*(b+(c/d));
+        System.out.println(result);
+    }
+
 }
