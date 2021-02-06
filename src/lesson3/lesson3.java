@@ -20,7 +20,7 @@ public class lesson3 {
     static void guessNumberBody() {
         Random random = new Random();
         Scanner sc = new Scanner(System.in);
-        System.out.println("~~~~Угадай число~~~~");
+        System.out.println("~~~Угадай число~~~");
         //System.out.println("Введите диапазон угадываемых чисел");
         //int dia = sc.nextInt();
         int dia = 10;
