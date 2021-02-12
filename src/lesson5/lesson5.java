@@ -10,7 +10,7 @@ public class lesson5 {
         workers[3]=new worker("Yana","Office-manager", "yana@mail.com", "+133", 1300, 22);
         workers[4]=new worker("Anna","HR director", "HR@mail.com", "+343", 6000, 41);
 
-        createWorkersArray();
+
         checkAge40(workers);
 
     }
@@ -25,16 +25,16 @@ public class lesson5 {
 
     }
 
-    //метод не работает. пока не работает
+    /*метод не работает. пока не работает
     public static worker[] createWorkersArray(){
-        worker workers[] = new worker[5];
-        workers[0]=new worker("Ivan","Engineer", "ivan@mail.com", "+123", 2000, 31);
+        worker workersArray[] = new worker[5];
+        workersArray[0]=new worker("Ivan","Engineer", "ivan@mail.com", "+123", 2000, 31);
         workers[1]=new worker("Maks","Engineer", "max@mail.com", "+134", 4000, 45);
         workers[2]=new worker("Dan","Director", "dir@mail.com", "+111", 10000, 56);
         workers[3]=new worker("Yana","Office-manager", "yana@mail.com", "+133", 1300, 22);
         workers[4]=new worker("Anna","HR director", "HR@mail.com", "+343", 6000, 41);
-        return workers;
-    }
+        return workers[];
+    }*/
 
 }
 
