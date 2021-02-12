@@ -29,7 +29,7 @@ public class lesson4 {
             if (!checkNextAIMove(field)){
                 return;
             }
-            drawField(field);
+            //drawField(field);
         }
     }
 
@@ -85,9 +85,9 @@ public class lesson4 {
                 }
             }
         }
-        for (int i = 0; i < field.length; i++) {
-            for (int j = 0; j < field[i].length-2; j++) {
-                if (field[j][i]== sign && field[j+1][i] ==  sign && field[j+2][i] == sign){
+        for (int i = 0; i < field.length-2; i++) {
+            for (int j = 0; j < field[i].length; j++) {
+                if (field[i][j]== sign && field[i+1][j] ==  sign && field[i+2][j] == sign){
                     return true;
                 }
 
