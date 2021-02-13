@@ -58,27 +58,6 @@ public class lesson4 {
         return isNextMoveAvailable(field, 'X', "Поздравляем, Вы выйграли!!!");
     }
 
-    /*static boolean isWin(char[][] field, char sign) {
-        for (int i = 0; i < field.length; i++) {
-            if (field[i][0] == sign && field[i][1] == sign && field[i][2] == sign) {
-                return true;
-            }
-        }
-        for (int i = 0; i < field.length; i++) {
-            if (field[0][i] == sign && field[1][i] == sign && field[2][i] == sign) {
-                return true;
-            }
-        }
-        if (field[0][0] == sign && field[1][1] == sign && field[2][2] == sign) {
-            return true;
-        }
-        if (field[0][2] == sign && field[1][1] == sign && field[2][0] == sign) {
-            return true;
-        }
-        return false;
-    }*/
-
-    //мой метод проверки победы
     static boolean isWinMyEdition(char[][] field, char sign) {
         for (int i = 0; i < field.length; i++) {
             for (int j = 0; j < field[i].length - 2; j++) {
