@@ -5,12 +5,12 @@ public class cat extends animals {
     public void run(int runDistance) {
         if (runDistance> 200){
             System.out.println("Кот не может пробежать больше 200м..");
-        } else System.out.printf("Кот пробежал %s %n", runDistance);
+        } else System.out.printf("Кот пробежал %s м%n", runDistance);
 
     }
 
     @Override
     public void swim(int swimDistance) {
-        System.out.println("Кот не умеет плавать");
+        System.out.println("К сожалению, Кот не умеет плавать");
     }
 }

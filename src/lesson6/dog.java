@@ -6,7 +6,7 @@ public class dog extends animals{
     public void run(int runDistance) {
         if (runDistance> 500){
             System.out.println("Собака не может пробежать больше 500м..");
-        } else System.out.printf("Собака пробежала %s %n", runDistance);
+        } else System.out.printf("Собака пробежала %s м%n", runDistance);
 
     }
 
@@ -14,7 +14,7 @@ public class dog extends animals{
     public void swim(int swimDistance) {
         if (swimDistance > 10){
             System.out.println("Собака не может проплыть больше 10м..");
-        } else System.out.printf("Собака проплыла %s %n", swimDistance);
+        } else System.out.printf("Собака проплыла %s м %n", swimDistance);
 
     }
 }

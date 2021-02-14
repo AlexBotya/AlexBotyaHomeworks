@@ -1,18 +1,24 @@
 package lesson6;
 
+import java.util.Scanner;
+
 public class lesson6 {
     public static void main(String[] args) {
-        dog dog1 = new dog();
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Введите расстояние, которое животные должны пробежать:");
+        int runDistance = scanner.nextInt();
+        System.out.println("Введите расстояние, которое животные должны проплыть:");
+        int swimDistance = scanner.nextInt();
 
-        dog1.run(499);
-        dog1.swim(5);
 
-        cat cat1 = new cat();
+        animals[]  animals= {new dog(), new cat(), new dog(), new cat()};
 
-        cat1.run(150);
-        cat1.swim(2);
-
+        for (int i = 0; i < animals.length; i++) {
+            System.out.println("Животное № " + (i+1));
+            animals[i].run(runDistance);
+            animals[i].swim(swimDistance);
+            System.out.println();
+        }
+        System.out.printf("%nКоличество созданных животных: %s шт.", animals.length);
     }
-
-
 }
