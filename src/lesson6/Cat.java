@@ -4,7 +4,7 @@ public class Cat extends Animal {
     private int maxRunDistance = 200;
 
     public Cat(int maxRunDistance) {
-        super("Doggy", maxRunDistance, 0);
+        super("Kitty", maxRunDistance, 0);
 
     }
 
